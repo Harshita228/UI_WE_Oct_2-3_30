@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h1>Text Formatting</h1>
+   <p>
+       This is HTML from <span>BMPL</span>. This is HTML from BMPL. This is HTML from BMPL. This is HTML from BMPL. This is HTML from BMPL. This is HTML from BMPL
+   </p>
+   <p>
+       <b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. Nulla commodi modi iure repudiandae voluptatibus obcaecati, <i>tempore expedita itaque velit cupiditate ducimus distinctio molestiae autem illo officia doloremque tenetur natus? </i>Enim?
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. <u>Non quaerat sunt, facere praesentium atque perferendis.</u> Neque veniam nobis sapiente recusandae corporis nulla quod assumenda accusamus saepe eos ipsam, molestias molestiae.
+   </p>
+   <p>
+       <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit. Nulla commodi modi iure repudiandae voluptatibus obcaecati, <em>tempore expedita itaque velit cupiditate ducimus distinctio molestiae autem illo officia doloremque tenetur natus? </em>Enim?
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. <ins>Non quaerat sunt, facere praesentium atque perferendis.</ins> Neque veniam nobis sapiente recusandae corporis nulla quod assumenda accusamus saepe eos ipsam, molestias molestiae.
+   </p>
+   
+   
+   <!--Entities-->
+   <pre>
+   <code>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() 
+{
+    int number, i = 1, factorial = 1;
+
+    cout &lt;&lt; "Enter a positive integer: ";
+    cin >> number;
+    
+    while ( i &lt;= number) {
+        factorial *= i;      //factorial = factorial * i;
+        ++i;
+    }
+
+    cout&lt;&lt;"Factorial of "&lt;&lt; number &lt;&lt;" = "&lt;&lt; factorial;
+    return 0;
+}
+   </code>
+    </pre>
+    
+    <h2>Entities - &copy; &trade; &alpha; &omega;</h2>
+    
+    <h2>10<sup>2</sup> = 100</h2>
+    <h2>H<sub>2</sub>O</h2>
+</body>
+</html>
