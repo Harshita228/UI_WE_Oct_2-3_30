@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #parent_1 h2 {
+            font-size: 30px;
+            color: white;
+        }
+        #parent_2 h2 {
+            font-size: 40px;
+            color: red;
+        }
+        #parent_1, #parent_2 {
+            background-color: lightblue;
+        }
+        .child_1, .child_2 {
+            background-color: lightcoral;
+        }
+        .grandChild {
+            background-color: lightgray;
+        }
+        #parent_1 .grandChild {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+   
+   <div id="parent_1">
+      <h2>This is parent</h2>
+       <div class="child_1">
+          <h2>This is child</h2>
+           <div class="grandChild">
+               <h2>This is grand Child</h2>
+           </div>
+       </div>
+       <div class="child_2">
+          <h2>This is child</h2>
+           <div class="grandChild">
+               <h2>This is grand Child</h2>
+           </div>
+       </div>
+   </div>
+   
+   <hr>
+   
+   <div id="parent_2">
+      <h2>This is parent</h2>
+       <div class="child_1">
+          <h2>This is child</h2>
+           <div class="grandChild">
+               <h2>This is grand Child</h2>
+           </div>
+       </div>
+       <div class="child_2">
+          <h2>This is child</h2>
+           <div class="grandChild">
+               <h2>This is grand Child</h2>
+           </div>
+       </div>
+   </div>
+    
+</body>
+</html>
