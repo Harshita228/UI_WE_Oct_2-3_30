@@ -1,0 +1,45 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    width: 15%;
+}
+
+#nav {
+    width: 80%;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    margin: 0px 15px;
+    display: inline-block;
+    background-color: red;
+}
+
+ul li a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#parent .column_1, #parent .column_2 {
+    display: inline-block;
+    width: 49%;
+    background-color: lightblue;
+}
