@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            height: 300px;
+            width: 300px;
+            border: 20px solid red;
+        }
+        div:after {
+            content: "";
+            border: 80px solid;
+            border-left-color: transparent;
+            /*border-bottom-color: transparent;*/
+            border-top-color: green;
+            border-right-color: transparent;
+            border-bottom: none;
+            position: absolute;
+            left: 400px;
+        }
+        div:hover:after {
+            border-bottom: 80px solid orange;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Triangles</h1>
+   
+   <div>
+       
+   </div>
+    
+</body>
+</html>
