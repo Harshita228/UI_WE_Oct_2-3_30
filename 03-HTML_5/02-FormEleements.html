@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h1>Form Elements</h1>
+   
+   <form action="#">
+       <table>
+           <tr>
+               <td>Enter Name</td>
+               <td>
+                   <input type="text" required placeholder="Enter Name" value="Ram">
+               </td>
+           </tr>
+           <tr>
+               <td>Enter Password</td>
+               <td>
+                   <input type="password" required placeholder="Enter Password" value="ihihihihi">
+               </td>
+           </tr>
+           <tr>
+               <td>Enter Email</td>
+               <td>
+                   <input type="email" autofocus placeholder="Enter Email">
+               </td>
+           </tr>
+           <tr>
+               <td>Enter DOB</td>
+               <td>
+                   <input type="date">
+               </td>
+               <td>
+                   <input type="datetime-local">
+               </td>
+               <td>
+                   <input type="time">
+               </td>
+               <td>
+                   <input type="month">
+               </td>
+               <td>
+                   <input type="week">
+               </td>
+           </tr>
+           <tr>
+               <td>Enter Age</td>
+               <td>
+                   <input type="number" max="30" min="18">
+               </td>
+           </tr>
+           <tr>
+               <td>Enter Phone Number</td>
+               <td>
+                   <input type="text" placeholder="Enter Phone Num" maxlength="10">
+               </td>
+           </tr>
+           <tr>
+               <td>Choose Color</td>
+               <td>
+                   <input type="color">
+               </td>
+           </tr>
+           <tr>
+               <td>Choose File</td>
+                <td>
+                    <input type="file">
+                </td>
+           </tr>
+           <tr>
+               <td>Enter URL</td>
+               <td>
+                   <input type="url" placeholder="Enter URL">
+               </td>
+           </tr>
+           <tr>
+               <td>Enter Card Number</td>
+               <td>
+                   <input type="text" placeholder="Enter Card Number"
+                    pattern="[a-z]{5}[A-Z]{1}[0-9]{1}" title="5 small case, 1 Uppercase, 1 Digit">
+               </td>
+           </tr>
+           <tr>
+               <td>Select Range</td>
+               <td>
+                   <input type="range" value="10" min="0" max="500" onchange="output.value = value" step="10">
+               </td>
+               <td>
+                   <output id="output">10</output>
+               </td>
+           </tr>
+           <tr>
+               <td>Your Progress</td>
+               <td>
+                   <progress value="30" max="100"></progress>
+               </td>
+           </tr>
+           <tr>
+               <td>Enter Comment</td>
+               <td>
+                   <textarea cols="30" rows="10" placeholder="Enter comment here"></textarea>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <input type="reset">
+               </td>
+               <td>
+                   <input type="submit">
+               </td>
+           </tr>
+       </table>
+   </form>
+    
+</body>
+</html>
