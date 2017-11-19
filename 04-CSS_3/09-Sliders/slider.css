@@ -1,0 +1,41 @@
+#slider {
+    height: 500px;
+    background-size: 100% 100%;
+    animation: slider 20s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url("../../Images/WebImages/awesome-wallpapers-6482-6759-hd-wallpapers.jpg");
+    }
+    15% {
+        background-image: url("../../Images/WebImages/awesome-wallpapers-6482-6759-hd-wallpapers.jpg");
+    }
+    20% {
+        background-image: url("../../Images/WebImages/thor-the-dark-world-5a.jpg");
+    }
+    35% {
+        background-image: url("../../Images/WebImages/thor-the-dark-world-5a.jpg");
+    }
+    40% {
+        background-image: url("../../Images/WebImages/batman_arkham_knight-1366x768.jpg");
+    }
+    55% {
+        background-image: url("../../Images/WebImages/batman_arkham_knight-1366x768.jpg");
+    }
+    60% {
+        background-image: url("../../Images/WebImages/Iron-Man-3-2013-Wallpaper.jpg");
+    }
+    75% {
+        background-image: url("../../Images/WebImages/Iron-Man-3-2013-Wallpaper.jpg");
+    }
+    80% {
+        background-image: url("../../Images/NewImages/3d-abstract-dead-city-wallpaper.jpg");
+    }
+    95% {
+        background-image: url("../../Images/NewImages/3d-abstract-dead-city-wallpaper.jpg");
+    }
+    100% {
+        background-image: url("../../Images/WebImages/awesome-wallpapers-6482-6759-hd-wallpapers.jpg");
+    }
+}

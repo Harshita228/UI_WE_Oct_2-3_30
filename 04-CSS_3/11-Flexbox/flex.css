@@ -1,0 +1,28 @@
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-around;*/
+    /*justify-content: space-between;*/
+    /*align-items: baseline;*/
+    /*align-items: flex-end;*/
+    /*align-items: center;*/
+}
+.column {
+    padding: 15px;
+    background-color: lightgray;
+    border: 2px solid red;
+    margin: 0px 5px 20px;
+}
+
+.col-1 {
+    align-self: baseline;
+    width: 30%;
+}
+.col-2 {
+    width: 80%;
+}
+.col-3 {
+    width: 30%;
+}

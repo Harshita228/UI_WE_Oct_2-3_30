@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+button {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+#pause {
+    margin-left: 100px;
+}
+
+#play:hover ~ #carousel {
+    animation-play-state: running;
+}
+#pause:hover ~ #carousel {
+    animation-play-state: paused;
+}
+
+#carousel {
+    overflow: hidden;
+    position: absolute;
+    left: 0%;
+    width: 500%;
+    animation: carousel 20s infinite paused;
+}
+.image {
+    width: 20%;
+    float: left;
+}
+
+img {
+    width: 100%;
+    height: 600px;
+}
+
+#carousel:hover {
+    animation-play-state: paused;
+}
+
+@keyframes carousel {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: -100%;
+    }
+    40% {
+        left: -200%;
+    }
+    60% {
+        left: -300%;
+    }
+    80% {
+        left: -400%;
+    }
+    100% {
+        left: -400%;
+    }
+}
